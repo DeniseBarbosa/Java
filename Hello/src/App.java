@@ -6,7 +6,15 @@
 
 public class App {
     public static void main(String[] args) throws Exception {
-        String nome = "Denise";
-        System.out.println(nome);
+        
+        int i = 10;
+       
+        System.out.println("i = " + i);
+        System.out.println("i = " + i + " + 5 | i = " + (i+5));
+        System.out.println("i = " + i + " - 5 | i = " + (i-5));
+        System.out.println("i = " + i + " * 5 | i = " + (i*5));
+        System.out.println("i = " + i + " / 5 | i = " + (i/5));
+        System.out.println("i = " + i + " % 5 | i = " + (i%5));
+        System.out.println(" i +=5     | i =  " + (i += 5));
     }
 }
