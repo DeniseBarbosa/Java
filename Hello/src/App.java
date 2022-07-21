@@ -6,15 +6,14 @@
 
 public class App {
     public static void main(String[] args) throws Exception {
-        
-        int i = 10;
-       
-        System.out.println("i = " + i);
-        System.out.println("i = " + i + " + 5 | i = " + (i+5));
-        System.out.println("i = " + i + " - 5 | i = " + (i-5));
-        System.out.println("i = " + i + " * 5 | i = " + (i*5));
-        System.out.println("i = " + i + " / 5 | i = " + (i/5));
-        System.out.println("i = " + i + " % 5 | i = " + (i%5));
-        System.out.println(" i +=5     | i =  " + (i += 5));
+        int idade = 10;
+
+        if(idade > 18){
+            System.out.println("Maior de idade");
+        }else if(idade <18){
+            System.out.println("Adolescente");
+        }else if (idade < 11){
+            System.out.println("Crinça");
+        }
     }
 }
